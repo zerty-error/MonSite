@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.navbar {
+    background-color: rgba(17, 69, 212, 0.765);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    border-radius: 2px;
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: 700;
+    padding: 22px;
+}
+
+.logo a{
+    color: azure;
+}
+
+.menu a:hover {
+    background-color: rgb(17, 69, 173);
+    border-radius: 15px;
+    color: orange;
+}
+
+.menu a:active {
+    background-color: rgb(17, 69, 173);
+    border-radius: 15px;
+    color: orange;
+}
+
+li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+li a{
+    color: aliceblue;
+    padding: 15px;
+    font-weight: 700;
+}
+
+
+footer {
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(17, 69, 212, 0.765);
+    border-radius: 2px;
+}
+
+
+
+
+
