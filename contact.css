@@ -82,7 +82,7 @@ li a{
     width: 400px;
     margin: 30px 0;
     padding: 60px 50px;
-    background-color:rgba(255, 255, 255, 0.605);
+    background-color:rgba(255, 255, 255, 0.409);
     border-radius: 15px;
     border: 1px solid rgb(152, 176, 242);
 }
@@ -164,6 +164,21 @@ li a{
     outline: none;
     border: 1px solid rgb(17, 69, 173);
     box-shadow: 0px 0px 5px rgb(17, 69, 173);
+}
+
+.contact {
+    margin: 30px 22px;
+    padding: 60px 50px;
+    background-color:rgba(255, 255, 255, 0.384);
+    border-radius: 15px;
+    border: 1px solid rgb(152, 176, 242);
+}
+
+.contact:hover {
+    background-color: rgba(189, 195, 211, 0.411);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(17, 69, 212);
+    zoom: 1.02;
 }
 
 footer {
