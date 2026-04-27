@@ -1,4 +1,4 @@
-* {
+* { 
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,16 +6,37 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    background-image: url(image-formulaire.jpeg);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /*background-color: aliceblue;
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-attachment: fixed;*/
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(43, 135, 192, 0.719);
+}   
+
+main {
+    /*border-radius: 13px;*/
+    /*background-color: rgba(85, 152, 219, 0.644);*/
+    display: flex;
+    padding: 60px 20px;
+    margin: 90px 60px 50px 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar {
-    background-color: rgba(17, 69, 212, 0.765);
+    background-color: rgb(17, 69, 212);
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     height: 58px;
+    width:  100%;
+    top: 0;
+    bottom: 0;
     border-radius: 2px;
 }
 
@@ -35,6 +56,8 @@ body {
     color: orange;
 }
 
+
+
 .menu a:active {
     background-color: rgb(17, 69, 173);
     border-radius: 15px;
@@ -53,10 +76,103 @@ li a{
 }
 
 
-footer {
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 30px 0;
+    padding: 60px 50px;
+    background-color:rgba(255, 255, 255, 0.605);
+    border-radius: 15px;
+    border: 1px solid rgb(152, 176, 242);
+}
+
+.formulaire:hover {
+    background-color: rgba(189, 195, 211, 0.411);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(17, 69, 212);
+    zoom: 1.02;
+}
+
+.formulaire label {
+    font-size: large;
+    font-weight: 700;
+    color: rgb(17, 69, 212);
     padding: 10px;
+}
+
+.formulaire input[type="text"] {
+    width: 370px;
+}
+
+.formulaire input[type="email"] {
+    width: 370px;
+}
+ 
+.formulaire textarea {
+    width: 370px;
+    height: 70px;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    font-weight: 700;
+    border: 1px solid rgb(17, 69, 212);
+        
+}   
+
+.formulaire input[type="submit"]:hover {
+    background-color: rgb(17, 69, 173);
+    color: orange;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formulaire input[type="submit"]:active {
+    background-color: rgb(17, 69, 173);
+    color: orange;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formulaire input[type="submit"] {
+    background-color: rgb(17, 69, 212);
+    color: aliceblue;
+    width: 370px;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formulaire input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid rgb(17, 69, 212);
+}
+
+.formulaire input:focus {
+    outline: none;
+    border: 1px solid rgb(17, 69, 173);
+    box-shadow: 0px 0px 5px rgb(17, 69, 173);
+}
+
+
+.formulaire textarea:focus {
+    outline: none;
+    border: 1px solid rgb(17, 69, 173);
+    box-shadow: 0px 0px 5px rgb(17, 69, 173);
+}
+
+footer {
+    padding: 3px;
+    width: 100%;
+    right: 0;
     color: aliceblue;
     text-align: center;
-    background-color: rgba(17, 69, 212, 0.765);
+    background-color: rgb(17, 69, 212);
     border-radius: 2px;
+
 }

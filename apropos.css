@@ -1,4 +1,4 @@
-* {
+* { 
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -7,22 +7,29 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-
-main {
     background-image: url(image.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
-    width: 150%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: rgba(14, 1, 1, 0.436);
+    background-blend-mode: multiply;
+}
+
+main {
+    background-color: rgba(6, 0, 0, 0.304);
+    background-blend-mode: multiply;
 }
 .navbar {
-    background-color: rgba(17, 69, 212, 0.765);
+    background-color: rgb(17, 69, 212);
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     height: 58px;
+    width:  100%;
+    top: 0;
+    bottom: 0;
     border-radius: 2px;
 }
 
@@ -59,12 +66,39 @@ li a{
     font-weight: 700;
 }
 
-footer {
-    padding: 10px;
-    color: aliceblue;
-    text-align: center;
-    background-color: rgba(17, 69, 212, 0.765);
-    border-radius: 2px;
+.message {
+    background-color: aliceblue;
+    padding: 60px;
+    border-color: orange;
+    border-radius: 30px;
+    width: 80%;
+    margin: 80px 60px;
 }
 
-    
+.propo {
+    margin: 0 45px 30px 0;
+}
+
+.vision p strong{
+    color: rgba(255, 166, 0, 0.833);
+}
+.devise {
+    padding: 30px;
+    margin: 30px 0 0 120px;
+    border-radius: 15px;
+    width: 70%;
+    background-color: rgba(255, 166, 0, 0.833);
+    background-blend-mode: multiply;
+}
+
+
+footer {
+    padding: 5px;
+    width: 100%;
+    top:600px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(17, 69, 212);
+    border-radius: 2px;
+    position: fixed;
+}
